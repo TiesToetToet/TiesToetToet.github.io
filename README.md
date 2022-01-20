@@ -7,7 +7,4 @@ Hello everyone, i made this interactive site with code from all kinds of website
 
 ..- .-- ..- / .. ... / -.-. ..- - . / .-... / --- .-- --- / .. ... / .- -. --. .-. -.--
 
-<details>
-  <summary>Spoiler warning</summary>
-  HELLO, I'M TIES#HOW ARE YOU?UWU IS CUTE # OWO IS ANGRY
-</details>
+--.- .-- --.- / .. ... / .-- --- .-. .-. .. . -.. / .-... / - .-- - / .. ... / -.. . .- -..
