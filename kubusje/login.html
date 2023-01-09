@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login - Kubusje de game</title>
+    <meta property="og:title" content="Login - Kubusje de game" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-standard-black);
+        background-color: var(--dl-color-standard-white);
+
+      }
+    </style>
+
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./login.css" rel="stylesheet" />
+
+      <div class="login-container">
+        <div class="login-container1">
+          <a href="/developer-blogs.html" class="login-navlink button">
+            Developer Blogs
+          </a>
+          <a href="/about.html" class="login-navlink01 button">About</a>
+          <a href="index.html" class="login-navlink02 button">Home</a>
+          <a href="/downloads.html" class="login-navlink03 button">Downloads</a>
+          <a href="/contact.html" class="login-navlink04 button">Contact</a>
+          <div class="login-container2"></div>
+          <div data-thq="thq-dropdown" class="login-thq-dropdown list-item">
+            <div data-thq="thq-dropdown-toggle" class="login-dropdown-toggle">
+              <span class="login-text">≡</span>
+              <div data-thq="thq-dropdown-arrow" class="login-dropdown-arrow">
+                <svg viewBox="0 0 1024 1024" class="login-icon">
+                  <path d="M426 726v-428l214 214z"></path>
+                </svg>
+              </div>
+            </div>
+            <ul data-thq="thq-dropdown-list" class="login-dropdown-list">
+              <li data-thq="thq-dropdown" class="login-dropdown list-item">
+                <a href="index.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="login-dropdown-toggle1"
+                  >
+                    <span class="login-text01">Home</span>
+                  </div>
+                </a>
+              </li>
+              <li data-thq="thq-dropdown" class="login-dropdown1 list-item">
+                <a href="/downloads.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="login-dropdown-toggle2"
+                  >
+                    <span class="login-text02">
+                      <span>Downloads</span>
+                      <br />
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li data-thq="thq-dropdown" class="login-dropdown2 list-item">
+                <a href="/downloads.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="login-dropdown-toggle3"
+                  >
+                    <span class="login-text05">Developer Blogs</span>
+                  </div>
+                </a>
+              </li>
+              <li data-thq="thq-dropdown" class="login-dropdown3 list-item">
+                <a href="/contact.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="login-dropdown-toggle4"
+                  >
+                    <span class="login-text06">Contact</span>
+                  </div>
+                </a>
+              </li>
+              <li data-thq="thq-dropdown" class="login-dropdown4 list-item">
+                <a href="/contact.html">
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="login-dropdown-toggle5"
+                  >
+                    <span class="login-text07">
+                      <span>About</span>
+                      <br />
+                    </span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a href="/login.html" class="login-navlink10 button">Placeholder</a>
+        </div>
+        <div class="login-container3">
+          <a
+            href="https:///terms_and_conditions"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="login-link"
+          >
+            <span>E-mail:</span>
+            <br />
+            <br />
+            <br />
+            <span>Password:</span>
+            <br />
+            <br />
+            <br />
+            <br />
+          </a>
+          <input
+            type="text"
+            placeholder="e-mail adress"
+            class="login-textinput input"
+          />
+          <input
+            type="text"
+            placeholder="password"
+            class="login-textinput1 input"
+          />
+          <a href="/create-account.html" class="login-navlink11 button">
+            Create Account
+          </a>
+          <span class="login-text19">I don't an account yet</span>
+          <button type="submit" class="login-button button">Login</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>

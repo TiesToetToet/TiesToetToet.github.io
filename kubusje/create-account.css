@@ -1,0 +1,505 @@
+.create-account-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.create-account-container1 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #333333;
+}
+.create-account-navlink {
+  top: 15px;
+  left: 302px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  bottom: 0px;
+  height: 41px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+.create-account-navlink01 {
+  top: 15px;
+  left: 592px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  bottom: 0px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: var(--dl-color-standard-buttongrey);
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-navlink02 {
+  top: 15px;
+  left: 12px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: var(--dl-color-standard-buttongrey);
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-navlink03 {
+  top: 15px;
+  left: 157px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+.create-account-navlink04 {
+  top: 15px;
+  left: 447px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  bottom: 0px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+.create-account-container2 {
+  top: 16px;
+  flex: 0 0 auto;
+  right: 161px;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-thq-dropdown {
+  top: -56px;
+  left: 0px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.create-account-dropdown-toggle {
+  fill: #595959;
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 10px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-text {
+  font-size: 26px;
+  font-style: normal;
+  text-align: center;
+  font-family: Agency FB;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.create-account-dropdown-arrow {
+  transition: 0.3s;
+}
+.create-account-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: auto;
+  transition: 0.3s;
+  margin-bottom: auto;
+}
+.create-account-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-standard-white);
+  list-style-position: inside;
+}
+.create-account-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.create-account-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.create-account-text01 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.create-account-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.create-account-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.create-account-text02 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.create-account-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.create-account-dropdown-toggle3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-dropdown-toggle3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.create-account-text05 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.create-account-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.create-account-dropdown-toggle4 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-dropdown-toggle4:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.create-account-text06 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.create-account-dropdown4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.create-account-dropdown-toggle5 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-dropdown-toggle5:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.create-account-text07 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.create-account-navlink10 {
+  top: 16px;
+  color: rgb(255, 255, 255);
+  right: 12px;
+  width: 137px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+.create-account-container3 {
+  top: 86px;
+  left: 16px;
+  width: 542px;
+  height: 677px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border-color: var(--dl-color-standard-buttongrey);
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 40px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-link {
+  top: 16px;
+  left: 16px;
+  position: absolute;
+  font-size: 26px;
+  font-family: Agency FB;
+  text-decoration: none;
+}
+.create-account-textinput {
+  top: 59px;
+  left: 16px;
+  position: absolute;
+}
+.create-account-textinput1 {
+  top: 144px;
+  left: 16px;
+  position: absolute;
+}
+.create-account-textinput2 {
+  top: 236px;
+  left: 16px;
+  position: absolute;
+}
+.create-account-checkbox {
+  top: 328px;
+  left: 16px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  transition: 0.3s;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+
+.create-account-checkbox1 {
+  top: 413px;
+  left: 16px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.create-account-button {
+  left: 16px;
+  color: var(--dl-color-standard-black);
+  width: 165px;
+  bottom: 150px;
+  position: absolute;
+  text-align: center;
+  border-width: 0px;
+  background-color: var(--dl-color-standard-buttongreen);
+}
+.create-account-navlink11 {
+  left: 16px;
+  color: var(--dl-color-standard-black);
+  width: 165px;
+  bottom: 60px;
+  position: absolute;
+  text-align: center;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongreen);
+}
+.create-account-text29 {
+  left: 16px;
+  bottom: 100px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Agency FB;
+}
+@media(max-width: 479px) {
+  .create-account-navlink {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .create-account-navlink01 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .create-account-navlink02 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .create-account-navlink03 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .create-account-navlink04 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .create-account-thq-dropdown {
+    top: 16px;
+    left: 12px;
+  }
+  .create-account-dropdown-list {
+    display: none;
+  }
+  .create-account-container3 {
+    width: 422px;
+  }
+}

@@ -1,0 +1,497 @@
+.developer-blogs-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.developer-blogs-container1 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #333333;
+}
+.developer-blogs-navlink {
+  top: 15px;
+  left: 302px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  bottom: 0px;
+  height: 41px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: var(--dl-color-standard-buttongreen);
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongreen);
+}
+.developer-blogs-navlink01 {
+  top: 15px;
+  left: 592px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  bottom: 0px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+.developer-blogs-navlink02 {
+  top: 15px;
+  left: 12px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: var(--dl-color-standard-buttongrey);
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-navlink03 {
+  top: 15px;
+  left: 157px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+.developer-blogs-navlink04 {
+  top: 15px;
+  left: 447px;
+  color: rgb(255, 255, 255);
+  width: 137px;
+  bottom: 0px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+.developer-blogs-container2 {
+  top: 16px;
+  flex: 0 0 auto;
+  right: 161px;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-thq-dropdown {
+  top: -56px;
+  left: 0px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.developer-blogs-dropdown-toggle {
+  fill: #595959;
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 10px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-text {
+  font-size: 26px;
+  font-style: normal;
+  text-align: center;
+  font-family: Agency FB;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.developer-blogs-dropdown-arrow {
+  transition: 0.3s;
+}
+.developer-blogs-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: auto;
+  transition: 0.3s;
+  margin-bottom: auto;
+}
+.developer-blogs-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-standard-white);
+  list-style-position: inside;
+}
+.developer-blogs-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.developer-blogs-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.developer-blogs-text01 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.developer-blogs-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.developer-blogs-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.developer-blogs-text02 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.developer-blogs-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.developer-blogs-dropdown-toggle3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-dropdown-toggle3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.developer-blogs-text05 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.developer-blogs-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.developer-blogs-dropdown-toggle4 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-dropdown-toggle4:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.developer-blogs-text06 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.developer-blogs-dropdown4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.developer-blogs-dropdown-toggle5 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-standard-buttongrey);
+}
+.developer-blogs-dropdown-toggle5:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.developer-blogs-text07 {
+  color: var(--dl-color-standard-black);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Agency FB;
+  font-weight: 500;
+}
+.developer-blogs-text10 {
+  top: 80px;
+  left: 599px;
+  position: absolute;
+  font-size: 42px;
+  align-self: center;
+  font-family: Agency FB;
+}
+.developer-blogs-container3 {
+  top: 183px;
+  left: 16px;
+  width: 1029px;
+  height: 276px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-standard-buttongreen);
+}
+.developer-blogs-text11 {
+  top: 16px;
+  left: 16px;
+  width: 997px;
+  height: 242px;
+  position: absolute;
+  font-size: 27px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Agency FB;
+}
+.developer-blogs-text14 {
+  font-size: 27px;
+  font-family: Agency FB;
+}
+.developer-blogs-text15 {
+  font-size: 27px;
+  font-family: Agency FB;
+}
+.developer-blogs-text17 {
+  font-size: 22px;
+}
+.developer-blogs-text18 {
+  font-size: 22px;
+}
+.developer-blogs-text19 {
+  font-size: 22px;
+}
+.developer-blogs-text20 {
+  font-size: 22px;
+}
+.developer-blogs-text21 {
+  font-size: 22px;
+}
+.developer-blogs-navlink10 {
+  top: 16px;
+  color: rgb(255, 255, 255);
+  right: 12px;
+  width: 137px;
+  height: 41px;
+  position: absolute;
+  font-size: 22px;
+  text-align: center;
+  font-family: Agency FB;
+  border-color: #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: rgb(64, 64, 64);
+}
+@media(max-width: 1200px) {
+  .developer-blogs-text10 {
+    left: 0px;
+    right: 0px;
+    text-align: center;
+  }
+}
+@media(max-width: 991px) {
+  .developer-blogs-container3 {
+    width: 922px;
+  }
+  .developer-blogs-text11 {
+    width: 890px;
+  }
+}
+@media(max-width: 479px) {
+  .developer-blogs-navlink {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .developer-blogs-navlink01 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .developer-blogs-navlink02 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .developer-blogs-navlink03 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .developer-blogs-navlink04 {
+    top: 0px;
+    left: 0px;
+    color: var(--dl-color-standard-inisible);
+    width: 0px;
+    height: 0px;
+    border-color: var(--dl-color-standard-inisible);
+    background-color: var(--dl-color-standard-inisible);
+  }
+  .developer-blogs-thq-dropdown {
+    top: 16px;
+    left: 12px;
+  }
+  .developer-blogs-dropdown-list {
+    display: none;
+  }
+  .developer-blogs-dropdown-toggle3 {
+    background-color: var(--dl-color-standard-buttongreen);
+  }
+  .developer-blogs-container3 {
+    width: 458px;
+  }
+  .developer-blogs-text11 {
+    width: 426px;
+    height: 247px;
+  }
+}
