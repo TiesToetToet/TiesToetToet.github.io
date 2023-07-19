@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Helmus B.V. | Contact</title>
+    <link rel="icon" href="images/icon.ico">
+    <link rel="stylesheet" href="css/helmus.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="MainApp">
+        <section class="TopBar">
+            <header class="Header">
+                <section class="verticalHeader">
+                    <section class="LeftHandThings">
+                        <section class="SocialsLan">
+                            <section class="Dutch">
+                                <button onclick="window.location.href=window.origin+'/contact.html'" class="DutchButton LanguageButton">
+                                    <img id="LogoBig" src="images/netherlands.svg" alt="Dutch">
+                                </button>
+                            </section>
+                            <section class="English">
+                                <button onclick="window.location.href=window.origin+'/english/contact.html'" class="EnglishButton LanguageButton">
+                                    <img src="images/britain.svg" alt="English">
+                                </button>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="Logo">
+                        <img src="images/Helmus_logo.svg" alt="Logo">
+                    </section>
+                    <section class="RightHandThings">
+                        <section class="Socials">
+                            <section class="LinkedIn">
+                                <button class="LinkedInButton" target="_blank" href='https://www.linkedin.com/company/helmus-spoelbedrijf/')">
+                                    <img src="images/LinkedIn_icon.svg" alt="LinkedIn">
+                                </button>
+                            </section>
+                        </section>
+                        <!-- <section class="Slogan">
+                            <p class="SloganP">SPOELEN, WARMWATERBEHANDELEN, ONTSMETTEN, DROGEN EN OVERSLAG</p>
+                        </section> -->
+                    </section>
+                </section>
+                <section class="Slogan">
+                    <p class="SloganP">SPOELEN, WARMWATERBEHANDELEN, ONTSMETTEN, DROGEN EN OVERSLAG</p>
+                </section>
+            </header>
+            <hr class="HorizontalLine">
+            <nav id="NormalMenu" class="NavigationBar">
+                <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Diensten</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Mensen</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Geschiedenis</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                <section class="Search SearchOption" onclick="Search()"><img src="images/search.svg" width="30px" height="30px"></section>
+            </nav>
+            <nav id="SmallMenu" style="display: none;" class="NavigationBar AlsoFromExpand">
+                <section class="expandleMenuParent">
+                    <p class="SearchOption active" onclick="document.querySelector('.expandleMenu').classList.toggle('active')">Menu</p>
+                    <section class="expandleMenu">
+                        <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Diensten</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Mensen</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Geschiedenis</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                    </section>
+                </section>
+                <section class="Search AtEnd SearchOption" onclick="Search()"><img src="images/search.svg" width="30px" height="30px"></section>
+            </nav>
+        </section>
+        <article class="Main">
+            <section class="TopFirst">
+                <section class="MainText" id="RightPart1">
+                    <h2>CONTACT</h2>
+                    <h3>A. Helmus B.V.</h3>
+                    <section class="inner ContactLines">
+                        <p class="underline pointer" target="_blank" href='https://goo.gl/maps/P6ydnhhzKPW8ibwr9'>Rijksstraatweg 56a, 2171AM Sassenheim</p><br>
+                        <p></p>
+                        <p>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a></p>
+                        <!-- <p>Fax: 0252 - 23 28 69</p> -->
+                        <p>E-mail: <a target="_blank" href='mailto:info@helmus.nl' class="underline pointer">info@helmus.nl</a></p>
+
+                    </section>
+                    <h4>Met specifieke vragen kunt u ook direct contact opnemen met:</h4>
+                    <section class="inner">
+                        <p>Epco (spoelen en overslag): <a href='mailto:epco@helmus.nl' target="_blank" class="underline pointer">epco@helmus.nl</a></p>
+                        <p>Marcel (warmwaterbehandelen/koken): <a href='mailto:marcel@helmus.nl' target="_blank" class="underline pointer">marcel@helmus.nl</a></p>
+                        <p>Anja (kantoor): <a href='tel:+0252222580' target="_blank" class="underline pointer">0252 - 22 25 80</a>     <br><a target="_blank" href='mailto:info@helmus.nl')" class="underline pointer">info@helmus.nl</a></p><br>
+                        <p></p>
+                        <p>Het bedrijfspand is gelegen aan de snelweg A44</p>
+                        <p>(Amsterdam - Den Haag), nabij op- en afrit nr. 4.</p>
+                    </section>
+
+                </section>
+                <section class="Image1" id="LeftPart1">
+                    <iframe class="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.669154151848!2d4.49835837581594!3d52.213059558910146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c16abdd23c1f%3A0x5d5f624b1b9e0681!2sA.%20Helmus%20BV%20(Spoelbedrijf)!5e0!3m2!1snl!2sus!4v1684145746674!5m2!1snl!2sus"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </section>
+        </article>
+        <footer class="Footer">
+            <section class="FooterInner">
+                <section class="FooterInner">
+                    <p>A. Helmus B.V.</p>
+                    <p class="Dot">&middot;</p>
+                    <a class="underline pointer" target="_blank" href='https://goo.gl/maps/P6ydnhhzKPW8ibwr9'>Rijksstraatweg 56a, 2171AM Sassenheim</a>
+                    <p class="Dot">&middot;</p>
+                    <p>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a></p>
+                    <p class="Dot">&middot;</p>
+                    <p>E-mail: <a class="underline pointer" target="_blank" href='mailto:info@helmus.nl'>info@helmus.nl</a></p>
+                </section>
+            </section>
+        </footer>
+    </section>
+    <script src="/js/helmus.js"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+</body>
+</html>

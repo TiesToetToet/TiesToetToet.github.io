@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'StRydeRegular';
+    src: url('/fonts/StRydeRegular.eot');
+    src: url('/fonts/StRydeRegular.eot?#iefix') format('embedded-opentype'),url('/fonts/StRydeRegular.woff') format('woff')}
+ @font-face {
+    font-family: 'StRyde-Bold';
+    src: url('/fonts/StRyde-Bold.eot');
+    src: url('/fonts/StRyde-Bold?#iefix') format('embedded-opentype'),url('/fonts/StRyde-Bold.woff') format('woff')}

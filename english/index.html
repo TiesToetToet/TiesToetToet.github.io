@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Helmus B.V. | Home</title>
+    <link rel="icon" href="../icon.ico">
+    <link rel="stylesheet" href="../css/helmus.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="MainApp">
+        <section class="TopBar">
+            <header class="Header">
+                <section class="verticalHeader">
+                    <section class="LeftHandThings">
+                        <section class="SocialsLan">
+                            <section class="Dutch">
+                                <button onclick="window.location.href=window.origin+'/index.html'" class="DutchButton LanguageButton">
+                                    <img id="LogoBig" src="../images/netherlands.svg" alt="Dutch">
+                                </button>
+                            </section>
+                            <section class="English">
+                                <button onclick="window.location.href=window.origin+'/english/index.html'" class="EnglishButton LanguageButton">
+                                    <img src="../images/britain.svg" alt="English">
+                                </button>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="Logo">
+                        <img src="../images/Helmus_logo.svg" alt="Logo">
+                    </section>
+                    <section class="RightHandThings">
+                        <section class="Socials">
+                            <section class="LinkedIn">
+                                <button class="LinkedInButton" onclick="window.open('https://www.linkedin.com/company/helmus-spoelbedrijf/')">
+                                    <img src="../images/LinkedIn_icon.svg" alt="LinkedIn">
+                                </button>
+                            </section>
+                        </section>
+                        <!-- <section class="Slogan">
+                            <p class="SloganP">Clean for export and nursery</p>
+                        </section> -->
+                    </section>
+                </section>
+                <section class="Slogan">
+                    <p class="SloganP">Clean for export and nursery</p>
+                </section>
+            </header>
+            <hr class="HorizontalLine">
+            <nav id="NormalMenu" class="NavigationBar">
+                <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Services</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Employees</section>
+                <section class="SearchOption" onclick="GoToPage(this)">History</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                <section class="Search SearchOption" onclick="Search()"><img src="../images/search.svg" width="30px" height="30px"></section>
+            </nav>
+            <nav id="SmallMenu" style="display: none;" class="NavigationBar AlsoFromExpand">
+                <section class="expandleMenuParent">
+                    <p class="SearchOption active" onclick="document.querySelector('.expandleMenu').classList.toggle('active')">Menu</p>
+                    <section class="expandleMenu">
+                        <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Services</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Employees</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">History</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                    </section>
+                </section>
+                <section class="Search AtEnd SearchOption" onclick="Search()"><img src="../images/search.svg" width="30px" height="30px"></section>
+            </nav>
+        </section>
+        <article class="Main">
+            <section class="TopFirst">
+                <section class="MainText" id="RightPart1">
+                    <h2>Dependable & innovative</h2>
+                    <section class="inner">
+                        <p>A. Helmus B.V. has years of experience in washing and hot water treatment of flower bulbs and perennials, but also fruit trees, rootstocks, bushes, peonies, astilbes and planting material. Allowing you to export them or start with clean plantmaterial for nursery purposes. Also are we specialized in cleaning of empty containers (a diversity of crates used in the agricultural and in the food sector).</p>
+                        <p>'Consider the job done.' This English expression is typical of A. Helmus B.V.. Regardless of whether your requirement is a standard task or something experimental, we get it done. Fast and effectively. You can rely on us completely.</p>
+                    </section>
+                </section>
+                <section class="Image1" id="LeftPart1">
+                    <img src="../images/main/helmus_1.jpg">
+                </section>
+            </section>
+            <section class="TopSecond">
+                <section class="Image2" id="RightPart2">
+                    <img src="../images/main/helmus_2.jpg">
+                </section>
+                <section class="MainTextRight" id="LeftPart2">
+                    <section class="innerLeft">
+                        <h3>Approved!</h3>
+                        <p>Batches that have been washed or treated by us meet the requirements of the Dutch Flower Bulb Inspection Services (BKD and NAKtuinbouw), the reject percentage is less than 1 percent. Obviously, we reprocess rejected batches free of charge. The Dutch Flower Bulb Inspection Services visits us regularly to ensure that the required procedures are performed in line with regulations. We have an excellent relationship with these official bodies.</p>
+                    </section>
+                </section>
+            </section>
+            <section class="TopThird">
+                <section class="MainText">
+                    <h3>Continuous improvement</h3>
+                    <section class="inner">
+                        <p>We make every effort to maintain and improve the level of quality that you have become accustomed to expect from us. We continually look for ways of making the process more effective and environmentally friendly, and reducing our energy consumption. We also welcome customers who would like to experiment with a new approach. We are more than willing to assist you in finding a solution for your problem.</p>
+                        <p>If you have any questions or would simply like to visit us to see how (cleanly) we work, please telephone us to make an appointment.</p>
+                    </section>
+                </section>
+                <section class="Image1" id="LeftPart2">
+                    <img src="../images/main/helmus_3.jpg">
+                </section>
+            </section>
+            <section class="Video">
+                <video id="my-video" class="video-js" controls preload="auto" poster="../images/main/thumbnail.jpg" data-setup="{}" style="height: 500px">
+                    <source src="../videos/Helmus.mp4" type="video/mp4" />
+                    <source src="../videos/Helmus.webm" type="video/webm" />
+                    <track
+                    label="English"
+                    kind="subtitles"
+                    srclang="en"
+                    src="../captions/vtt/helmus/en.vtt"
+                    default />
+                    <track
+                    label="Nederlands"
+                    kind="subtitles"
+                    srclang="ml"
+                    src="../captions/vtt/helmus/nl.vtt"
+                    default />
+                    <track
+                    label="Deutsch"
+                    kind="subtitles"
+                    srclang="de"
+                    src="../captions/vtt/helmus/de.vtt"
+                    default />
+                    <track
+                    label="Français"
+                    kind="subtitles"
+                    srclang="fr"
+                    src="../captions/vtt/helmus/fr.vtt"
+                    default />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank"
+                          >supports HTML5 video</a
+                        >
+                    </p>
+                </video>
+            </section>
+        </article>
+        <footer class="Footer">
+            <section class="FooterInner">
+                <section class="FooterInner">
+                    <p>A. Helmus B.V.</p>
+                    <p class="Dot">&middot;</p>
+                    <a class="underline pointer" href='https://goo.gl/maps/P6ydnhhzKPW8ibwr9' target="_blank">Rijksstraatweg 56a, 2171AM Sassenheim</p>
+                    <p class="Dot">&middot;</p>
+                    <p>Telephone: <a class="underline pointer" href='tel:+31252222580' target="_blank">+31 252 - 22 25 80</p></p>
+                    <p class="Dot">&middot;</p>
+                    <p>E-mail: <a class="underline pointer" href='mailto:info@helmus.nl' target="_blank">info@helmus.nl</a></p>
+                </section>
+            </section>
+        </footer>
+    </section>
+    <script src="/js/helmus.js"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+</body>
+</html>

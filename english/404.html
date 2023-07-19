@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Helmus B.V. | 404</title>
+    <link rel="icon" href="../images/icon.ico">
+    <link rel="stylesheet" href="../css/helmus.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="MainApp">
+        <section class="TopBar">
+            <header class="Header">
+                <section class="verticalHeader">
+                    <section class="LeftHandThings">
+                        <section class="SocialsLan">
+                            <section class="Dutch">
+                                <button onclick="window.location.href=window.origin+'/404.html'" class="DutchButton LanguageButton">
+                                    <img id="LogoBig" src="../images/netherlands.svg" alt="Dutch">
+                                </button>
+                            </section>
+                            <section class="English">
+                                <button onclick="window.location.href=window.origin+'/404/index.html'" class="EnglishButton LanguageButton">
+                                    <img src="../images/britain.svg" alt="English">
+                                </button>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="Logo">
+                        <img src="../images/Helmus_logo.svg" alt="Logo">
+                    </section>
+                    <section class="RightHandThings">
+                        <section class="Socials">
+                            <section class="LinkedIn">
+                                <button class="LinkedInButton" onclick="window.open('https://www.linkedin.com/company/helmus-spoelbedrijf/')">
+                                    <img src="../images/LinkedIn_icon.svg" alt="LinkedIn">
+                                </button>
+                            </section>
+                        </section>
+                        <!-- <section class="Slogan">
+                            <p class="SloganP">Clean for export and nursery</p>
+                        </section> -->
+                    </section>
+                </section>
+                <section class="Slogan">
+                    <p class="SloganP">Clean for export and nursery</p>
+                </section>
+            </header>
+            <hr class="HorizontalLine">
+            <nav id="NormalMenu" class="NavigationBar">
+                <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Services</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Employees</section>
+                <section class="SearchOption" onclick="GoToPage(this)">History</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                <section class="Search SearchOption" onclick="Search()"><img src="../images/search.svg" width="30px" height="30px"></section>
+            </nav>
+            <nav id="SmallMenu" style="display: none;" class="NavigationBar AlsoFromExpand">
+                <section class="expandleMenuParent">
+                    <p class="SearchOption active" onclick="document.querySelector('.expandleMenu').classList.toggle('active')">Menu</p>
+                    <section class="expandleMenu">
+                        <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Services</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Employees</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">History</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                    </section>
+                </section>
+                <section class="Search AtEnd SearchOption" onclick="Search()"><img src="../images/search.svg" width="30px" height="30px"></section>
+            </nav>
+        </section>
+        <article class="Main">
+            <section class="TopExtra">
+                <h3>The page you were looking for is not found.</h3>
+                <p>Please use our search engine or navigation above to find the page.</p>
+            </section>
+        </article>
+        <footer class="Footer">
+            <section class="FooterInner">
+                <section class="FooterInner">
+                    <p>A. Helmus B.V.</p>
+                    <p class="Dot">&middot;</p>
+                    <a class="underline pointer" href='https://goo.gl/maps/P6ydnhhzKPW8ibwr9' target="_blank">Rijksstraatweg 56a, 2171AM Sassenheim</p>
+                    <p class="Dot">&middot;</p>
+                    <p>Telephone: <a class="underline pointer" href='tel:+31252222580' target="_blank">+31 252 - 22 25 80</p></p>
+                    <p class="Dot">&middot;</p>
+                    <p>E-mail: <a class="underline pointer" href='mailto:info@helmus.nl' target="_blank">info@helmus.nl</a></p>
+                </section>
+            </section>
+        </footer>
+    </section>
+    <script src="/js/helmus.js"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+</body>
+</html>

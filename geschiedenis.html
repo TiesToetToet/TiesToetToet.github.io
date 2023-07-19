@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Helmus B.V. | Geschiedenis</title>
+    <link rel="icon" href="images/icon.ico">
+    <link rel="stylesheet" href="css/helmus.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="MainApp">
+        <section class="TopBar">
+            <header class="Header">
+                <section class="verticalHeader">
+                    <section class="LeftHandThings">
+                        <section class="SocialsLan">
+                            <section class="Dutch">
+                                <button onclick="window.location.href=window.origin+'/geschiedenis.html'" class="DutchButton LanguageButton">
+                                    <img id="LogoBig" src="images/netherlands.svg" alt="Dutch">
+                                </button>
+                            </section>
+                            <section class="English">
+                                <button onclick="window.location.href=window.origin+'/english/history.html'" class="EnglishButton LanguageButton">
+                                    <img src="images/britain.svg" alt="English">
+                                </button>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="Logo">
+                        <img src="images/Helmus_logo.svg" alt="Logo">
+                    </section>
+                    <section class="RightHandThings">
+                        <section class="Socials">
+                            <section class="LinkedIn">
+                                <button class="LinkedInButton" onclick="window.open('https://www.linkedin.com/company/helmus-spoelbedrijf/')">
+                                    <img src="images/LinkedIn_icon.svg" alt="LinkedIn">
+                                </button>
+                            </section>
+                        </section>
+                        <!-- <section class="Slogan">
+                            <p class="SloganP">SPOELEN, WARMWATERBEHANDELEN, ONTSMETTEN, DROGEN EN OVERSLAG</p>
+                        </section> -->
+                    </section>
+                </section>
+                <section class="Slogan">
+                    <p class="SloganP">SPOELEN, WARMWATERBEHANDELEN, ONTSMETTEN, DROGEN EN OVERSLAG</p>
+                </section>
+            </header>
+            <hr class="HorizontalLine">
+            <nav id="NormalMenu" class="NavigationBar">
+                <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Diensten</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Mensen</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Geschiedenis</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                <section class="Search SearchOption" onclick="Search()"><img src="images/search.svg" width="30px" height="30px"></section>
+            </nav>
+            <nav id="SmallMenu" style="display: none;" class="NavigationBar AlsoFromExpand">
+                <section class="expandleMenuParent">
+                    <p class="SearchOption active" onclick="document.querySelector('.expandleMenu').classList.toggle('active')">Menu</p>
+                    <section class="expandleMenu">
+                        <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Diensten</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Mensen</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Geschiedenis</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                    </section>
+                </section>
+                <section class="Search AtEnd SearchOption" onclick="Search()"><img src="images/search.svg" width="30px" height="30px"></section>
+            </nav>
+        </section>
+        <article class="Main">
+            <section class="TopFirst">
+                <section class="MainText" id="RightPart1">
+                    <h2>HET BEGON MET EEN VELDKETEL...</h2>
+                    <section class="inner">
+                        <p>De geschiedenis van A. Helmus B.V. gaat terug tot begin vorige eeuw. Albert Helmus jr. nam in 1938 de bollenkwekerij over van zijn vader Albert Helmus, die al in 1907 ingeschreven stond bij de KAVB.</p>
+                    </section>
+                    <h3>Bak & brander</h3>
+                    <section class="inner">
+                        <p>Albert Helmus jr. behandelde zijn narcissen in een zogenoemde veldketel. “Dat was niet meer dan een bak met een petroleumbrander eronder”, vertelt Rien Helmus, die tot 2002 in het bedrijf actief was. “Door de vlam hoger of lager te stellen kon je de temperatuur in de bak beïnvloeden. Dit ging niet goed genoeg naar zijn zin. En met een capaciteit van een paar zakken bollen per behandeling ook niet snel genoeg.”</p>
+                    </section>
+                </section>
+                <section class="Image1" id="LeftPart1">
+                    <img src="images/Geschiedenis/helmus_1.jpg">
+                </section>
+            </section>
+            <section class="TopSecond">
+                <section class="Image2" id="RightPart2">
+                    <img src="images/Geschiedenis/helmus_2.jpg">
+                </section>
+                <section class="MainTextRight" id="LeftPart2">
+                    <section class="innerLeft">
+                        <h3>Kookketels & hijskraan!</h3>
+                        <p>In 1948 ontwikkelde Albert Helmus jr. in samenwerking met metaalbewerkingsbedrijf Lakeman een installatie met een hijskraan erboven. “Vanaf toen werden er zo’n dertig zakken op een vlonder gelegd, die met de hijskraan in de kookketel werd getild.” Andere kwekers raakten enthousiast en brachten hun narcissen naar Albert om ze te laten behandelen. Naarmate de aanvoer toenam, werd het systeem uitgebreid met meer kookketels; de hijskraan werd aangepast zodat hij alle ketels kon bedienen. “Het principe van dit systeem gebruiken we nog steeds - in een moderne versie.”</p>
+                    </section>
+                </section>
+            </section>
+            <section class="TopThird">
+                <section class="MainText">
+                    <h3>Strengere eisen & trouwe klanten</h3>
+                    <section class="inner">
+                        <p>Toen de export naar Amerika begin jaren ’50 flink toenam, werden de fytosanitaire eisen steeds strenger. De kookketels werden in die tijd ook gebruikt om producten schoon te wassen. Om dit proces te vergemakkelijken ontwikkelde Albert Helmus jr. in 1956 een spoelmachine. Dat was ook financieel haalbaar doordat hij met vijf grote exporteurs was overeengekomen dat zij voor een bepaalde periode hun producten bij hem lieten spoelen. Twee daarvan zijn nog steeds klant van A. Helmus B.V..</p>
+                    </section>
+                    <h3>Derde generatie</h3>
+                    <section class="inner">
+                        <p>In 1962 vormde Albert Helmus jr. een firma met zonen Rien en Hans. Toen Albert Helmus jr. in 1980 uit de zaak stapte, werd de firma een BV. Rien en Hans hebben het bedrijf inmiddels overgedragen aan de volgende generatie: Epco en Marcel.</p>
+                    </section>
+                </section>
+                <section class="Image1" id="LeftPart2">
+                    <img src="images/Geschiedenis/helmus_3.jpg">
+                </section>
+            </section>
+        </article>
+        <footer class="Footer">
+            <section class="FooterInner">
+                <section class="FooterInner">
+                    <p>A. Helmus B.V.</p>
+                    <p class="Dot">&middot;</p>
+                    <a class="underline pointer" target="_blank" href='https://goo.gl/maps/P6ydnhhzKPW8ibwr9'>Rijksstraatweg 56a, 2171AM Sassenheim</a>
+                    <p class="Dot">&middot;</p>
+                    <p>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a></p>
+                    <p class="Dot">&middot;</p>
+                    <p>E-mail: <a class="underline pointer" target="_blank" href='mailto:info@helmus.nl'>info@helmus.nl</a></p>
+                </section>
+            </section>
+        </footer>
+    </section>
+    <script src="/js/helmus.js"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Helmus B.V. | Diensten</title>
+    <link rel="icon" href="images/icon.ico">
+    <link rel="stylesheet" href="css/helmus.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="MainApp">
+        <section class="TopBar">
+            <header class="Header">
+                <section class="verticalHeader">
+                    <section class="LeftHandThings">
+                        <section class="SocialsLan">
+                            <section class="Dutch">
+                                <button onclick="window.location.href=window.origin+'/diensten.html'" class="DutchButton LanguageButton">
+                                    <img id="LogoBig" src="images/netherlands.svg" alt="Dutch">
+                                </button>
+                            </section>
+                            <section class="English">
+                                <button onclick="window.location.href=window.origin+'/english/services.html'" class="EnglishButton LanguageButton">
+                                    <img src="images/britain.svg" alt="English">
+                                </button>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="Logo">
+                        <img src="images/Helmus_logo.svg" alt="Logo">
+                    </section>
+                    <section class="RightHandThings">
+                        <section class="Socials">
+                            <section class="LinkedIn">
+                                <button class="LinkedInButton" onclick="window.open('https://www.linkedin.com/company/helmus-spoelbedrijf/')">
+                                    <img src="images/LinkedIn_icon.svg" alt="LinkedIn">
+                                </button>
+                            </section>
+                        </section>
+                        <!-- <section class="Slogan">
+                            <p class="SloganP">SPOELEN, WARMWATERBEHANDELEN, ONTSMETTEN, DROGEN EN OVERSLAG</p>
+                        </section> -->
+                    </section>
+                </section>
+                <section class="Slogan">
+                    <p class="SloganP">SPOELEN, WARMWATERBEHANDELEN, ONTSMETTEN, DROGEN EN OVERSLAG</p>
+                </section>
+            </header>
+            <hr class="HorizontalLine">
+            <nav id="NormalMenu" class="NavigationBar">
+                <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Diensten</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Mensen</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Geschiedenis</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                <section class="Search SearchOption" onclick="Search()"><img src="images/search.svg" width="30px" height="30px"></section>
+            </nav>
+            <nav id="SmallMenu" style="display: none;" class="NavigationBar AlsoFromExpand">
+                <section class="expandleMenuParent">
+                    <p class="SearchOption active" onclick="document.querySelector('.expandleMenu').classList.toggle('active')">Menu</p>
+                    <section class="expandleMenu">
+                        <section class="SearchOption" onclick="GoToPage(this)">Home</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Diensten</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Mensen</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Geschiedenis</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Links</section>
+                        <section class="SearchOption" onclick="GoToPage(this)">Contact</section>
+                    </section>
+                </section>
+                <section class="Search AtEnd SearchOption" onclick="Search()"><img src="images/search.svg" width="30px" height="30px"></section>
+            </nav>
+        </section>
+        <article class="Main">
+            <section class="TopFirst">
+                <section class="MainText" id="RightPart1">
+                    <h2>SCHOON, SCHONER, SCHOONST</h2>
+                    <section class="inner">
+                        <p>A. Helmus B.V. is een spoelbedrijf met jarenlange ervaring met het spoelen en warmwaterbehandelen (koken) van de meest uiteenlopende producten. Voor een advies op maat kunt u ons altijd bellen. Of kom even langs.
+                            <br>
+                            <br>
+                            <br>E-Mail: <a href='mailto:epco@helmus.nl' target="_blank" class="underline pointer">epco@helmus.nl</a>
+                            <br>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a>
+                            <br>Google Maps: <a class="underline pointer" target="_blank" href='https://goo.gl/maps/P6ydnhhzKPW8ibwr9'>A. Helmus B.V.</a>
+                            <br>Of vul het <a href="/formulier.html?option=1" class="underline pointer">formulier</a> in.</p>
+                        </p>
+                    </section>
+                </section>
+                <section class="Image1" id="LeftPart1">
+                    <img src="images/diensten/helmus_1.jpg">
+                </section>
+            </section>
+            <p style="display: none;">Bloembollen spoelen</p>
+            <p style="display: none;">Bollen spoelen</p>
+            <p style="display: none;">Struiken spoelen</p>
+            <p style="display: none;">Planten spoelen</p>
+            <p style="display: none;">Planten wassen</p>
+            <p style="display: none;">Spoelen</p>
+            <p style="display: none;">Schoonmaken</p>
+            <p style="display: none;">Poetsen</p>
+            <p style="display: none;">Verwijderen van grond</p>
+            <p style="display: none;">Verwijderen van zand</p>
+            <p style="display: none;">Verwijderen van klei</p>
+            <p style="display: none;">Verwijderen van aarde</p>
+            <p style="display: none;">Verwijderen van turf</p>
+            <p style="display: none;">Verwijderen grond</p>
+            <p style="display: none;">Verwijderen zand</p>
+            <p style="display: none;">Verwijderen klei</p>
+            <p style="display: none;">Verwijderen aarde</p>
+            <p style="display: none;">Verwijderen turf</p>
+            <p style="display: none;">Planten</p>
+            <section class="TopSecond">
+                <section class="Image2" id="RightPart2">
+                    <img src="images/Diensten/helmus_2.jpg">
+                </section>
+                <section class="MainTextRight" id="LeftPart2">
+                    <section class="innerLeft">
+                        <h3 id="Spoelen">Spoelen</h3>
+                        <p>Met onze voorweek- en spoelinstallatie kunnen wij vrijwel alle producten exportschoon krijgen (ze voldoen dan aan de strenge fytosanitaire eisen van een groeiend aantal landen). Speciaal voor kwekers is er de mogelijkheid om producten kwekerijschoon te spoelen, waarna ze gemakkelijker te verwerken zijn. De meeste producten worden in kratten en gaasbakken geleverd, maar wij kunnen ook andere soorten fust, zoals kuubkisten, verwerken. Ook vruchtbomen, onderstammen, rozenstruiken en leeg fust kunt u bij ons schoon laten spoelen.
+                            <br>
+                            <br>
+                            <br>Meer weten? Neem contact met ons op via: 
+                            <br>
+                            <br>E-Mail: <a href='mailto:epco@helmus.nl' target="_blank" class="underline pointer">epco@helmus.nl</a>
+                            <br>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a>
+                            <br>Of vul het <a href="/formulier.html?option=1" class="underline pointer">formulier</a> in.</p>
+                    </section>
+                </section>
+            </section>
+            <p style="display: none;">Warmte behandeling</p>
+            <p style="display: none;">Temperatuur behandeling</p>
+            <p style="display: none;">Heetstook</p>
+            <p style="display: none;">CATT</p>
+            <p style="display: none;">Mijt koken</p>
+            <p style="display: none;">Nemathode koken</p>
+            <p style="display: none;">Stengelaal koken</p>
+            <p style="display: none;">Wortelaal koken</p>
+            <p style="display: none;">Krokusaaltjes koken</p>
+            <p style="display: none;">Aphelenchoides koken</p>
+            <p style="display: none;">Aphelenchoides Ritzemabosi koken</p>
+            <p style="display: none;">Ditylenchus koken</p>
+            <p style="display: none;">Ditylenchus Destructor koken</p>
+            <p style="display: none;">Aphelenchoides koken</p>
+            <p style="display: none;">Aphelenchoides Subtenuis koken</p>
+            <p style="display: none;">Ditylenchus koken</p>
+            <p style="display: none;">Ditylenchus Dipsaci koken</p>
+            <p style="display: none;">Pratylenchus koken</p>
+            <p style="display: none;">Pratylenchus Penetrans koken</p>
+            <p style="display: none;">Dompelen</p>
+            <p style="display: none;">Warm water</p>
+            <p style="display: none;">Heet water</p>
+            <p style="display: none;">Desinfecteren</p>
+            <section class="TopThird">
+                <section class="MainText">
+                    <h3 id="Ontsmetten">Ontsmetten</h3>
+                    <section class="inner">
+                        <p>Steeds meer klanten laten hun producten na het spoelen ontsmetten om ze te beschermen tegen schimmels (tijdens verzending of teelt). Wij verwerken veel lelies, maar ook crocussen, narcissen, tulpen, pioenen, astilbes en rozenstruiken. Daarbij maken wij gebruik van verschillende middelen, die in een optimale mix worden toegepast.
+                            <br>
+                            <br>
+                            <br>Meer weten? Neem contact met ons op via: 
+                            <br>
+                            <br>E-Mail: <a href='mailto:info@helmus.nl' target="_blank" class="underline pointer">info@helmus.nl</a>
+                            <br>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a>
+                            <br>Of vul het <a href="/formulier.html?option=2" class="underline pointer">formulier</a> in.</p>
+                    </section>
+                </section>
+                <section class="Image1" id="LeftPart2">
+                    <img src="images/Diensten/helmus_3.jpg">
+                </section>
+            </section>
+            <section class="TopFourth">
+                <section class="Image2" id="RightPart3">
+                    <img src="images/Diensten/helmus_4.jpg">
+                </section>
+                <section class="MainTextRight">
+                    <section class="innerLeft">
+                        <h3 id="Koken">Warmwaterbehandelingen</h3>
+                        <p>Bij het warmwaterbehandelen (koken) draait het om de combinatie van temperatuur en tijdsduur. Door onze jarenlange ervaring is het bijna altijd mogelijk om een passende behandeling voor uw producten te vinden. Onze warmwaterbehandelingsinstallatie wordt continu bewaakt met een Programmable Logistic Computer (PLC), waardoor het proces in de kookketels optimaal verloopt. Bovendien wordt regelmatig getest of de temperatuurverdeling in de gehele kookketel gelijkmatig is. Voor de partijen die bestemd zijn voor export leveren wij kosteloos een kookcertificaat.
+                            <br>
+                            <br>
+                            <br>Meer weten? Neem contact met ons op via: 
+                            <br>
+                            <br>E-Mail: <a href='mailto:marcel@helmus.nl' target="_blank" class="underline pointer">marcel@helmus.nl</a>
+                            <br>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a>
+                            <br>Of vul het <a href="/formulier.html?option=3" class="underline pointer">formulier</a> in.</p>
+                    </section>
+                </section>
+            </section>
+            <section class="TopFifth">
+                <section class="MainText">
+                    <h3>Drogen</h3>
+                    <section class="inner">
+                        <p>Bijna alle producten kunnen wij na het spoelen en/of warmwaterbehandelen terugdrogen in onze droogcellen. Dit proces verloopt computergestuurd (PLC), waardoor het energieverbruik minimaal is. Dankzij onze speciale droogwand kunnen ook producten in kuubkisten worden gedroogd.
+                            <br>
+                            <br>
+                            <br>Meer weten? Neem contact met ons op via: 
+                            <br>
+                            <br>E-Mail: <a href='mailto:info@helmus.nl' target="_blank" class="underline pointer">info@helmus.nl</a>
+                            <br>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a>
+                            <br>Of vul het <a href="/formulier.html?option=4" class="underline pointer">formulier</a> in.</p>
+                    </section>
+                </section>
+                <section class="Image1" id="LeftPart2">
+                    <img src="images/Diensten/helmus_5.jpg">
+                </section>
+            </section>
+            <section class="TopSixth">
+                <section class="Image2" id="RightPart3">
+                    <img src="images/Diensten/helmus_6.jpg">
+                </section>
+                <section class="MainTextRight">
+                    <section class="innerLeft">
+                        <h3>Overslag</h3>
+                        <p>Door de centrale ligging is A. Helmus B.V. een ideale overslaglocatie. Wij kunnen uw producten overslaan van het moment dat de leverancier ze brengt totdat de koper ze ophaalt - of het nu om een enkel kratje gaat of een grote partij.
+                            <br>
+                            <br>
+                            <br>Meer weten? Neem contact met ons op via: 
+                            <br>
+                            <br>E-Mail: <a href='mailto:epco@helmus.nl' target="_blank" class="underline pointer">epco@helmus.nl</a>
+                            <br>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a>
+                            <br>Of vul het <a href="/formulier.html?option=5" class="underline pointer">formulier</a> in.</p>
+                    </section>
+                </section>
+            </section>
+        </article>
+        <section class="Video">
+            <video id="my-video" class="video-js" controls preload="auto" poster="images/Diensten/thumbnail.png" data-setup="{}">
+                <source src="videos/Schoon_voor_export.mp4" type="video/mp4" />
+                <source src="videos/Schoon_voor_export.webm" type="video/webm" />
+                <track
+                label="English"
+                kind="subtitles"
+                srclang="en"
+                src="captions/vtt/schoon_voor_export/en.vtt"
+                default />
+                <track
+                label="Nederlands"
+                kind="subtitles"
+                srclang="ml"
+                src="captions/vtt/schoon_voor_export/nl.vtt"
+                default />
+                <track
+                label="Deutsch"
+                kind="subtitles"
+                srclang="de"
+                src="captions/vtt/schoon_voor_export/de.vtt"
+                default />
+                <track
+                label="Français"
+                kind="subtitles"
+                srclang="fr"
+                src="captions/vtt/schoon_voor_export/fr.vtt"
+                default />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank"
+                      >supports HTML5 video</a
+                    >
+                </p>
+            </video>
+        </section>
+        <footer class="Footer">
+            <section class="FooterInner">
+                <section class="FooterInner">
+                    <p>A. Helmus B.V.</p>
+                    <p class="Dot">&middot;</p>
+                    <a class="underline pointer" target="_blank" href='https://goo.gl/maps/P6ydnhhzKPW8ibwr9'>Rijksstraatweg 56a, 2171AM Sassenheim</a>
+                    <p class="Dot">&middot;</p>
+                    <p>Telefoon: <a class="underline pointer" target="_blank" href='tel:+0252222580'>0252 - 22 25 80</a></p>
+                    <p class="Dot">&middot;</p>
+                    <p>E-mail: <a class="underline pointer" target="_blank" href='mailto:info@helmus.nl'>info@helmus.nl</a></p>
+                </section>
+            </section>
+        </footer>
+    </section>
+    <script src="/js/helmus.js"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+</body>
+</html>
