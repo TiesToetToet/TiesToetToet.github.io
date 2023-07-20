@@ -48,9 +48,9 @@ function ToggleMenu() {
         document.querySelector(".Slogan").classList.add("atTop")
         // document.querySelector(".Logo").innerHTML = "<img src='images/logoAnimation.gif'>"
         if (window.location.href.includes("/english/")) {
-          document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='../images/helmus_logo_small.svg'>`
+          document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='../images/Helmus_logo_small.svg'>`
         } else {
-          document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='images/helmus_logo_small.svg'>`
+          document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='images/Helmus_logo_small.svg'>`
         }
     }
 }
@@ -173,6 +173,7 @@ function SearchBar() {
 						shortContextTextHighlight = "OntsmettenTitle";
 						shortContextText = "Ontsmetten";
 					}
+					console.log(normal)
 					var sectionContent = `<section class="SearchItem"><h3><a href="${url}?search=${shortContextTextHighlight}&normal=${shortContextText}">${pageTitle}</a></h3><p>${contextText}</p></section>`;
 					// console.log(sectionContent);
 					if (!document.querySelector(".SearchSectionParent").innerHTML.includes(sectionContent.replace("&", "&amp;"))) {
@@ -267,9 +268,9 @@ function Resize() {
 		}
     } else {
 		if (window.location.href.includes("/english/")) {
-			document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='../images/helmus_logo_small.svg'>`
+			document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='../images/Helmus_logo_small.svg'>`
 		} else {
-			document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='images/helmus_logo_small.svg'>`
+			document.querySelector(".Logo").innerHTML = `<img style="height: 70px; width: 70px; align-self: flex-start;" src='images/Helmus_logo_small.svg'>`
 		  }
     }
 	ToggleMenu()
