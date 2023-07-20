@@ -141,13 +141,12 @@ function SearchBar() {
 					}
 					var contextEndIndex = Math.min(index + 300, contentText.length);
 					var contextText = contentText.substring(contextStartIndex, contextEndIndex);
-					if (contextText === "" || !contextText.includes(searchTerm)) {
+					if (contextText === "" || !contextText.toLowerCase().includes(searchTerm.toLowerCase())) {
 						contextText = searchTerm;
 					}
 					contextText = highlightTextInLink(contextText, searchTerm, "bold");
-
 					var shortContextText = contentText.substring(index - 7, index + 7 + searchTerm.length);
-					if (!shortContextText.includes(searchTerm)) {
+					if (!shortContextText.toLowerCase().includes(searchTerm.toLowerCase())) {
 						shortContextText = searchTerm;
 						// console.log(shortContextText)
 					}
@@ -173,7 +172,7 @@ function SearchBar() {
 						shortContextTextHighlight = "OntsmettenTitle";
 						shortContextText = "Ontsmetten";
 					}
-					console.log(shortContextText)
+					// console.log(shortContextText)
 					var sectionContent = `<section class="SearchItem"><h3><a href="${url}?search=${shortContextTextHighlight}&normal=${shortContextText}">${pageTitle}</a></h3><p>${contextText}</p></section>`;
 					// console.log(sectionContent);
 					if (!document.querySelector(".SearchSectionParent").innerHTML.includes(sectionContent.replace("&", "&amp;"))) {
