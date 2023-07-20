@@ -175,7 +175,7 @@ function SearchBar() {
 					// console.log(shortContextText)
 					var sectionContent = `<section class="SearchItem"><h3><a href="${url}?search=${shortContextTextHighlight}&normal=${shortContextText}">${pageTitle}</a></h3><p>${contextText}</p></section>`;
 					// console.log(sectionContent);
-					if (!document.querySelector(".SearchSectionParent").innerHTML.includes(sectionContent.replace("&", "&amp;"))) {
+					if (!document.querySelector(".SearchSectionParent").innerHTML.slice(0, 100).includes(sectionContent.slice(0, 100).replace("&", "&amp;"))) {
 						document.querySelector(".SearchSectionParent").innerHTML += sectionContent;
 					}
 				}
