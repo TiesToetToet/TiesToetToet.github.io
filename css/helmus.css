@@ -598,7 +598,7 @@ body {
 mark {
     background-color: rgba(14, 121, 70, .5);
 }
-a:link, a:visited, a:hover, a:active, a:-webkit-any-link {
+a:link, a:visited, a:hover, a:active, a:-webkit-any-link, a {
    color: inherit;
     text-decoration: none;
 }
