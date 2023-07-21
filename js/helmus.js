@@ -173,7 +173,7 @@ function SearchBar() {
 						shortContextText = "Ontsmetten";
 					}
 					// console.log(shortContextText)
-					var sectionContent = `<section class="SearchItem"><h3><a href="${url}?search=${shortContextTextHighlight}&normal=${shortContextText}">${pageTitle}</a></h3><p>${contextText}</p></section>`;
+					var sectionContent = `<section class="SearchItem"><h3><a href="${url}?search=${shortContextTextHighlight.toLowerCase()}&normal=${shortContextText.toLowerCase()}">${pageTitle}</a></h3><p>${contextText}</p></section>`;
 					// console.log(sectionContent);
 					if (!document.querySelector(".SearchSectionParent").innerHTML.includes(sectionContent.replace("&", "&amp;"))) {
 						document.querySelector(".SearchSectionParent").innerHTML += sectionContent;
@@ -306,17 +306,20 @@ window.addEventListener('load', function() {
 				allElementsInsideMain = mainElement.querySelectorAll('*');
 				allElementsInsideMain.forEach(element => {
 					if (['SPAN', 'A', 'P', 'H2', 'H3'].includes(element.tagName)) {
-						if (element.textContent.includes(normal)) {
+						if (element.textContent.toLowerCase().includes(normal)) {
 							// console.log(search)
 							// console.log(search)
-							if (search == "SpoelenTitle") {
+							if (search == "spoelentitle") {
 								element = this.document.getElementById("Spoelen")
 								search = "<mark>Spoelen</mark>"
-							} else if (search == "OntsmettenTitle") {
+							} else if (search == "ontsmettentitle") {
 								element = this.document.getElementById("Ontsmetten")
 								search = "<mark>Ontsmetten</mark>"
 							}
-							NewInner = element.innerHTML.replace(normal, search)
+							var index = element.textContent.toLowerCase().indexOf(normal.toLowerCase());
+							var actualText = element.textContent.substring(index, index + normal.length);
+							actualText = "<mark>" + actualText + "</mark>"
+							NewInner = element.innerHTML.toLowerCase().replace(normal, actualText)
 							element.innerHTML = NewInner
 							// for (var i = 1; i = 0; i++) {
 							// 	markElement = document.querySelector('mark');
