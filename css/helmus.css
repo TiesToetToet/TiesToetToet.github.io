@@ -594,6 +594,10 @@ body {
 }
 .underline {
     text-decoration: underline !important;
+    cursor: pointer;
+}
+.underline:hover {
+    text-decoration: none !important;
 }
 mark {
     background-color: rgba(14, 121, 70, .5);
@@ -990,5 +994,10 @@ a {
 @media(max-width: 550px) {
     .SocialsLan > section {
         height: 25px
+    }
+}
+@media(max-width: 500px) {
+    .FormCenter {
+        width: 100%;
     }
 }
