@@ -342,6 +342,15 @@ window.addEventListener('load', function() {
 			}
 		}
 	}
+	if (window.location.href.includes("zoek.html") || window.location.href.includes("search.html")) {
+		urlParams = new URLSearchParams(window.location.search);
+		parameterName = 'q'; // Replace 'param' with the parameter you want to check
+		if (urlParams.has(parameterName)) {
+			search = urlParams.get(parameterName);
+			document.getElementById('SearchBar').value = search
+			SearchBar()
+		}
+	}
 });
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
